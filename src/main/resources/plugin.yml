@@ -1,0 +1,15 @@
+name: NoWeaponFlight
+version: '1.0'
+main: top.miragedge.noweaponflight.NoWeaponFlightPlugin
+api-version: '1.21'
+prefix: NoWeaponFlight
+authors: [ F.windEmiko ]
+description: 手拿矛和重锤时禁止飞行
+website: miragedge.top
+permissions:
+  noweaponflight.bypass:
+    description: 允许绕过飞行限制
+    default: op
+  noweaponflight.admin:
+    description: 允许使用管理命令
+    default: op
