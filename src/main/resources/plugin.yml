@@ -2,7 +2,7 @@ name: NoWeaponFlight
 version: '1.0'
 main: top.miragedge.noweaponflight.NoWeaponFlightPlugin
 api-version: '1.21'
-prefix: NoWeaponFlight
+prefix: FE_NoWeaponFlight
 authors: [ F.windEmiko ]
 description: 手拿矛和重锤时禁止飞行
 website: miragedge.top
