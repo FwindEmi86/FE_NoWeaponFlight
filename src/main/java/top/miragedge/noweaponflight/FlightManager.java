@@ -120,7 +120,7 @@ public class FlightManager {
             if (data.wasFlying() && data.wasAllowedFlight()) {
                 // 延迟设置飞行，确保玩家安全
                 Bukkit.getScheduler().runTaskLater(plugin, () -> {
-                    if (player.isOnline()) {
+                    if (player.isOnline() && player.getAllowFlight()) {
                         player.setFlying(true);
                     }
                 }, 1L);

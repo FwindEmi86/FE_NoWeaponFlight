@@ -27,7 +27,7 @@ public class NoWeaponFlightPlugin extends JavaPlugin {
         // 启动定时任务检查飞行状态（每 tick 检查一次）
         Bukkit.getScheduler().runTaskTimer(this, flightManager::checkFlyingPlayers, 0L, 5L);
 
-        getLogger().info("NoWeaponFlight 插件已启用！");
+        getLogger().info("FE_NoWeaponFlight 插件已启用！");
         getLogger().info("禁止手持重锤或矛时飞行");
     }
 
@@ -37,7 +37,7 @@ public class NoWeaponFlightPlugin extends JavaPlugin {
         if (flightManager != null) {
             flightManager.cleanup();
         }
-        getLogger().info("NoWeaponFlight 插件已禁用！");
+        getLogger().info("FE_NoWeaponFlight 插件已禁用！");
     }
 
     public FlightManager getFlightManager() {

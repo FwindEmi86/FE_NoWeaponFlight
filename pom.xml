@@ -18,6 +18,7 @@
 
     <build>
         <defaultGoal>clean package</defaultGoal>
+        <finalName>[F][禁止飞行物品]FE_NoWeaponFlight</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
